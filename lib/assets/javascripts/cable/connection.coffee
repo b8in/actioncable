@@ -3,7 +3,7 @@
 {message_types} = Cable.INTERNAL
 
 class Cable.Connection
-  @reopenDelay: 500
+  @reopenDelay: 2500
 
   constructor: (@consumer) ->
     @open()
